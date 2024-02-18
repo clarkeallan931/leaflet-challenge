@@ -42,7 +42,7 @@ d3.json(queryURL).then(function(response) {
             fillColor: chooseColor(depth),
             fillOpacity: 0.75,
             radius: circlesize(mag)
-        }).bindPopup(`<h1>Place:${response.features[i].properties.place}</h1> <hr> <h3> Magnitude:${response.features[i].properties.mag}`).addTo(myMap); 
+        }).bindPopup(`<h1>Place:  ${response.features[i].properties.place}</h1> <hr> <h3> Magnitude:  ${response.features[i].properties.mag}`).addTo(myMap); 
     }
 });
 
